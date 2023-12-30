@@ -1,0 +1,3 @@
+GET {{host}}/hosts/{{hostId}}/dinners
+Content-Type: application/json
+Authorization: Bearer {{token}}

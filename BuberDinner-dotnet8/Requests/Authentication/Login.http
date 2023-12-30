@@ -1,0 +1,7 @@
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "ammantin@mantinband.com",
+    "password": "Amiko1232!"
+}

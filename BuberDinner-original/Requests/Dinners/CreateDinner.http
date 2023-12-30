@@ -1,0 +1,24 @@
+POST {{host}}/hosts/{{hostId}}/dinners
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "name": "Pizza & Jazz",
+    "description": "Join us for a night of Pizza and Jazz! After dinner we will continue the fun at the BRB bar 💪🏽🍺",
+    "startDateTime": "2020-01-01T18:00:00.0000000Z",
+    "endDateTime": "2020-01-01T18:00:00.0000000Z",
+    "isPublic": true,
+    "maxGuests": 10,
+    "price": {
+        "amount": 18.00,
+        "currency": "USD"
+    },
+    "menuId": "43372b1f-e295-437f-ac2c-5f13ef08012c",
+    "ImageUrl": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    "location": {
+        "name": "Dan's Pizza House",
+        "address": "Bergen, Norway",
+        "latitude": 60.391262,
+        "longitude": 5.322054
+    }
+}
