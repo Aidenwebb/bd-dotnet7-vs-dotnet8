@@ -17,7 +17,7 @@ namespace BuberDinner.Infrastructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.1")
+                .HasAnnotation("ProductVersion", "8.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -411,6 +411,8 @@ namespace BuberDinner.Infrastructure.Migrations
 
                             b1.ToTable("GuestBillIds", (string)null);
 
+                            b1.HasDiscriminator().HasValue("BillId");
+
                             b1.WithOwner()
                                 .HasForeignKey("GuestId");
                         });
@@ -650,6 +652,8 @@ namespace BuberDinner.Infrastructure.Migrations
                             b1.HasIndex("HostId");
 
                             b1.ToTable("HostMenuIds", (string)null);
+
+                            b1.HasDiscriminator().HasValue("MenuId");
 
                             b1.WithOwner()
                                 .HasForeignKey("HostId");
