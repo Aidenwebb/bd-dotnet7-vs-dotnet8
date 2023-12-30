@@ -66,6 +66,6 @@ Time Elapsed 00:00:00.75
 make: *** [makefile:21: post-build] Error 1
 ```
 
-The difference between dotnet-ef v7.0.1 and dotnet-ef v8.0.0 is taht dotnet-ef v8.0.0 adds `.HasDiscriminator` on line 417 and 659 of `/workspaces/bd-dotnet7-vs-dotnet8/BuberDinner-dotnet8/BuberDinner.Infrastructure/Migrations/20231230190557_InitialCreate.Designer.cs`
+The difference between dotnet-ef v7.0.1 and dotnet-ef v8.0.0 is that dotnet-ef v8.0.0 adds `.HasDiscriminator` on line 417 and 659 of `/workspaces/bd-dotnet7-vs-dotnet8/BuberDinner-dotnet8/BuberDinner.Infrastructure/Migrations/20231230190557_InitialCreate.Designer.cs`
 
 This .HasDiscriminator then causes the build to fail.
