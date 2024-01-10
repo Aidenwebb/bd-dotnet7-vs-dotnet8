@@ -1,0 +1,11 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOTIxYjE4Yy05MDMzLTQwMjgtYWY3NC04MmQzMTVhYjU2MTgiLCJnaXZlbl9uYW1lIjoiQW1pa28iLCJmYW1pbHlfbmFtZSI6IkRhcmsiLCJqdGkiOiI3NjVjYTJiYS03NDEyLTRlZmYtOTU3NC02ZjA3NjFhNzQwYjciLCJleHAiOjE3MDQ4ODUwMjQsImlzcyI6IkJ1YmVyRGlubmVyIiwiYXVkIjoiQnViZXJEaW5uZXIifQ.zIvWk85E0aVYKjQapATHl62KL30tsMG__JwVtdLCoxs",
+            "hostId": "3921b18c-9033-4028-af74-82d315ab5618"
+        },
+        "dev": {
+            "host": "https://localhost:7229"
+        }
+    }
+}

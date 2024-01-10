@@ -1,11 +1,7 @@
 using System.Reflection;
-
 using BuberDinner.Application.Common.Behaviors;
-
 using FluentValidation;
-
 using MediatR;
-
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BuberDinner.Application;
